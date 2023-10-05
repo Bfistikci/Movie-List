@@ -1,0 +1,57 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+.card {
+  border-style: outset;
+  border-color: black;
+  border: .5px solid;
+  border-radius: 5px;
+  padding: 5px;
+  width: fit-content;
+  float: left;
+  background-color: aliceblue;
+  margin: 5px;
+  overflow: hidden;
+}
+.card a {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: aquamarine;
+  padding: 10px;
+}
+.navbar a {
+  font-size: 20px;
+}
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  width: 1200px;
+}
+.card img:hover {
+  scale: 1.1;
+  animation: slow .8s ease-in;
+}
+@keyframes slow {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 1.1;
+  }
+}
